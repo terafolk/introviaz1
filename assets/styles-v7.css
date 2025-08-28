@@ -6,7 +6,15 @@ a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
 .container{max-width:1120px;margin:0 auto;padding:0 22px}
 /* nav */
 nav{position:sticky;top:0;background:#fff;border-bottom:1px solid var(--border);z-index:10}
-nav .inner{height:68px;display:flex;align-items:center;justify-content:space-between}
+/* nav */
+nav .inner { height: 72px; }            /* a touch taller header */
+.brand img { height: 44px; }             /* match button visual size */
+
+@media (max-width: 640px) {
+  nav .inner { height: 60px; }
+  .brand img { height: 36px; }
+}
+
 .brand img{height:30px}
 .btn-outline,.cta{display:inline-block;padding:12px 16px;border-radius:12px;font-weight:700;border:1px solid #2b9958;background:var(--green);color:#fff;margin-left:10px}
 .btn-outline:hover,.cta:hover{background:#fff;color:var(--green)}
