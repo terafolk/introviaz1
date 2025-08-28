@@ -1,28 +1,93 @@
 <!doctype html>
-<html lang="es"><head>
-<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>INTROVIAZ – Crecimiento B2B de precisión</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/styles-b12.css"/>
-<link rel="stylesheet" href="/assets/styles-nav.css"/>
-</head><body>
-<nav><div class="container inner">
-  <div class="brand"><a href="/"><img src="/assets/logo.png" alt="INTROVIAZ logo"/></a></div>
-  <div class="nav-links">
-    <a class="btn-outline" href="/#services">Servicios</a>
-    <a class="btn-outline" href="/#process">Proceso</a>
-    <a class="btn-outline" href="mailto:azupanc@introviaz.com?subject=Consulta%20Introviaz">Contacto</a>
-    <a class="btn-outline lang active" href="/"><img class="flag" src="/assets/en.svg" alt="EN"> EN</a>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>INTROVIAZ – Crecimiento B2B de precisión</title>
+  <meta name="description" content="ABM, datos curados y outbound cualificado para IT & SaaS. Calidad antes que cantidad." />
+  <link rel="canonical" href="https://introviaz.com/es/">
+  <meta property="og:image" content="/assets/og-image.png" />
+  <link rel="icon" href="/assets/favicon.ico" />
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <!-- IMPORTANT: use root-absolute paths so they work under /es/ -->
+  <link rel="stylesheet" href="/assets/styles-b12.css" />
+  <link rel="stylesheet" href="/assets/styles-nav.css" />
+  <style>
+    /* ensure active state for ES */
+    .lang.es .btn-outline.es, .lang.es .btn-outline.es:focus {background:#21a366;color:#fff;border-color:#21a366}
+  </style>
+</head>
+<body class="lang es">
+<nav>
+  <div class="container inner">
+    <div class="brand">
+      <img src="/assets/logo.png" alt="INTROVIAZ logo" />
+    </div>
+    <div>
+      <a class="btn-outline en" href="/">EN</a>
+      <a class="btn-outline" href="#services">Servicios</a>
+      <a class="btn-outline" href="#process">Proceso</a>
+      <a class="cta" href="mailto:azupanc@introviaz.com?subject=Consulta%20Introviaz">Contacto</a>
+    </div>
   </div>
-</div></nav>
-<header class="hero"><div class="container">
-  <span class="badge">Calidad antes que cantidad</span>
-  <h1>Crecimiento basado en cuentas, <span class="highlight">bien hecho</span></h1>
-  <p class="lead">Listas pequeñas, investigación profunda e introducciones sólidas a CIO/CTO y Seguridad.</p>
-  <div style="margin-top:22px;"><a class="btn-outline active" href="mailto:azupanc@introviaz.com?subject=Reservar%20reuni%C3%B3n">Reservar reunión</a></div>
-</div></header>
-<section id="services" class="section"><div class="container"><h2>Qué hacemos</h2><p class="small">Estrategia &amp; consultoría ABM · Datos curados · Generación de leads cualificados</p></div></section>
-<section id="process" class="section"><div class="container"><h2>Cómo funciona</h2><p class="small">Descubrir → Objetivo → Construir → Activar → Calificar → Entregar</p></div></section>
-<footer class="footer"><div class="container small">© 2025 INTROVIAZ • <a href="/privacy.html">Privacidad</a></div></footer>
-</body></html>
+</nav>
+
+<header class="hero">
+  <div class="container">
+    <span class="badge">Calidad antes que cantidad</span>
+    <h1>Crecimiento B2B de precisión para <span class="highlight">IT &amp; SaaS</span></h1>
+    <p class="lead">ABM, datos curados y outbound cualificado que abre conversaciones reales con CIO, CTO y equipos de Seguridad.</p>
+    <div style="margin-top:22px;">
+      <a class="cta" href="mailto:azupanc@introviaz.com?subject=Reserva%20reuni%C3%B3n">Reserva una reunión</a>
+    </div>
+  </div>
+  <div class="hero-art">
+    <img src="/assets/img/typing-laptop.jpg" alt="Trabajo en laptop" />
+  </div>
+</header>
+
+<section id="why" class="section">
+  <div class="container">
+    <h2>Por qué INTROVIAZ</h2>
+    <div class="grid-3" style="margin-top:18px;">
+      <div class="card">
+        <h3>Hecho para compradores B2B</h3>
+        <p class="small">Mensajería, canales y cadencias afinadas para decisores.</p>
+        <ul class="checks">
+          <li>Motion enterprise & scale‑up</li>
+          <li>Cobertura España & LATAM</li>
+          <li>Outreach en inglés y español</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Datos inteligentes, hechos a mano</h3>
+        <p class="small">Investigamos cuentas y contactos manualmente —y los validamos.</p>
+        <ul class="checks">
+          <li>Listas de cuentas objetivo</li>
+          <li>Datos verificados de contacto</li>
+          <li>Conjuntos precisos y pequeños</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Introducciones listas para ventas</h3>
+        <p class="small">Outreach multicanal y calificación rigurosa.</p>
+        <ul class="checks">
+          <li>Email, teléfono, LinkedIn, WhatsApp</li>
+          <li>Criterios tipo BANT</li>
+          <li>Reúnete con decisores</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container small">
+    © 2025 INTROVIAZ • <a href="/privacy.html">Privacidad</a>
+  </div>
+</footer>
+</body>
+</html>
